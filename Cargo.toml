@@ -1,0 +1,17 @@
+[package]
+name = "grin-seeder"
+version = "0.1.0"
+authors = ["Quentin Le Sceller <q.lesceller@gmail.com>"]
+
+[dependencies]
+grin_seeder_config = { path = "./config"}
+grin_seeder_util = { path = "./util"}
+grin_seeder_dns_server = { path = "./dns_server"}
+
+clap = "^2.23.3"
+daemonize = "^0.2.3"
+lazy_static = "~0.2.8"
+slog = { version = "^2.0.12", features = ["max_level_trace", "release_max_level_trace"] }
+slog-term = "^2.2.0"
+slog-async = "^2.1.0"
+time = "^0.1"
