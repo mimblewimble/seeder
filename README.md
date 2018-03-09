@@ -20,7 +20,7 @@ source $HOME/.cargo/env
 #### Clone Grin
 
 ```
-git clone https://github.com/quentinlesceller/grin-seeder.git
+git clone https://github.com/mimblewimble/seeder.git
 ```
 
 #### Build Grin
